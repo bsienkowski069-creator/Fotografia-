@@ -1,47 +1,74 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio Fotograficzne</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>b.sienkowsk.i — Photography</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<header>
+    <div class="logo">📸 b.sienkowsk.i</div>
     <nav>
-        <h1>Moje Portfolio</h1>
-        <ul>
-            <li><a href="#natura">Natura</a></li>
-            <li><a href="#architektura">Architektura</a></li>
-            <li><a href="#detale">Detale</a></li>
-        </ul>
+        <a href="#about">O mnie</a>
+        <a href="#natura">Natura</a>
+        <a href="#architektura">Architektura</a>
+        <a href="#detale">Detale</a>
+        <a href="#contact">Kontakt</a>
     </nav>
+</header>
 
-    <section id="natura">
-        <h2>Natura</h2>
-        <div class="grid">
-            <img src="4424.png" alt="Natura 1">
-            <img src="4406.png" alt="Natura 2">
-            <img src="4367.png" alt="Natura 3">
-            <img src="387.png" alt="Natura 4">
-            <img src="399.png" alt="Natura 5">
-        </div>
-    </section>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Photography & Visual Stories</h1>
+        <p>Uchwycone momenty • klimat • emocje • światło</p>
+        <a href="#natura" class="btn">Zobacz galerię</a>
+    </div>
+</section>
 
-    <section id="architektura">
-        <h2>Architektura</h2>
-        <div class="grid">
-            <img src="1736.png" alt="Architektura 1">
-            <img src="1741.png" alt="Architektura 2">
-            <img src="202.png" alt="Architektura 3">
-        </div>
-    </section>
+<section id="about" class="section">
+    <h2>👤 O mnie</h2>
+    <p class="about-text">Fotografią zajmuję się z pasji. Uwielbiam uchwycać klimat miejsc, emocje i kadry, które opowiadają historię. Aparat: Canon EOS R100.</p>
+</section>
 
-    <section id="detale">
-        <h2>Detale</h2>
-        <div class="grid">
-            <img src="4766.png" alt="Detal 1">
-            <img src="578.png" alt="Detal 2">
-            <img src="361.png" alt="Detal 3">
-        </div>
-    </section>
+<!-- SEKCJA NATURA -->
+<section id="natura" class="section dark">
+    <h2>🌿 Natura</h2>
+    <div class="gallery">
+        <img src="4424.png" alt="Natura">
+        <img src="4406.png" alt="Natura">
+        <img src="4367.png" alt="Natura">
+        <img src="387.png" alt="Natura">
+        <img src="399.png" alt="Natura">
+    </div>
+</section>
+
+<!-- SEKCJA ARCHITEKTURA -->
+<section id="architektura" class="section">
+    <h2>🏛 Architektura</h2>
+    <div class="gallery">
+        <img src="1736.png" alt="Architektura">
+        <img src="1741.png" alt="Architektura">
+        <img src="202.png" alt="Architektura">
+    </div>
+</section>
+
+<!-- SEKCJA DETALE -->
+<section id="detale" class="section dark">
+    <h2>🔍 Detale</h2>
+    <div class="gallery">
+        <img src="4766.png" alt="Detal">
+        <img src="578.png" alt="Detal">
+        <img src="361.png" alt="Detal">
+    </div>
+</section>
+
+<footer id="contact">
+    <p>© 2026 b.sienkowsk.i — Photography</p>
+    <a href="https://instagram.com/b.sienkowsk.i" target="_blank">Instagram: @b.sienkowsk.i</a>
+</footer>
+
 </body>
 </html>
