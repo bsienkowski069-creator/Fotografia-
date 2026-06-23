@@ -2,38 +2,46 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moje Portfolio Fotograficzne</title>
     <link rel="stylesheet" href="style.css">
+    <title>Portfolio Fotograficzne</title>
 </head>
 <body>
-    <header>
-        <h1>Moje Fotograficzne Spojrzenie</h1>
-        <p>Aparat: Canon EOS R100</p>
-    </header>
+    <nav>
+        <h1>Moje Portfolio</h1>
+        <ul>
+            <li><a href="#natura">Natura</a></li>
+            <li><a href="#architektura">Architektura</a></li>
+            <li><a href="#detale">Detale</a></li>
+        </ul>
+    </nav>
 
-    <main class="gallery">
-        <!-- Przykładowe wstawienie plików z bazy -->
-        <img src="4766.png" alt="Zdjęcie 4766">
-        <img src="4424.png" alt="Zdjęcie 4424">
-        <img src="4406.png" alt="Zdjęcie 4406">
-        <img src="4367.png" alt="Zdjęcie 4367">
-        <img src="4365.png" alt="Zdjęcie 4365">
-        <img src="1951.png" alt="Zdjęcie 1951">
-        <img src="1736.png" alt="Zdjęcie 1736">
-        <img src="1741.png" alt="Zdjęcie 1741">
-        <img src="578.png" alt="Zdjęcie 578">
-        <img src="576.png" alt="Zdjęcie 576">
-        <img src="361.png" alt="Zdjęcie 361">
-        <img src="202.png" alt="Zdjęcie 202">
-        <img src="363.png" alt="Zdjęcie 363">
-        <img src="203.png" alt="Zdjęcie 203">
-        <img src="387.png" alt="Zdjęcie 387">
-        <img src="399.png" alt="Zdjęcie 399">
-    </main>
+    <section id="natura">
+        <h2>Natura</h2>
+        <div class="grid">
+            <img src="4424.png" alt="Natura 1">
+            <img src="4406.png" alt="Natura 2">
+            <img src="4367.png" alt="Natura 3">
+            <img src="387.png" alt="Natura 4">
+            <img src="399.png" alt="Natura 5">
+        </div>
+    </section>
 
-    <footer>
-        <p>Obserwuj mnie na <a href="#">Instagramie</a></p>
-    </footer>
+    <section id="architektura">
+        <h2>Architektura</h2>
+        <div class="grid">
+            <img src="1736.png" alt="Architektura 1">
+            <img src="1741.png" alt="Architektura 2">
+            <img src="202.png" alt="Architektura 3">
+        </div>
+    </section>
+
+    <section id="detale">
+        <h2>Detale</h2>
+        <div class="grid">
+            <img src="4766.png" alt="Detal 1">
+            <img src="578.png" alt="Detal 2">
+            <img src="361.png" alt="Detal 3">
+        </div>
+    </section>
 </body>
 </html>
