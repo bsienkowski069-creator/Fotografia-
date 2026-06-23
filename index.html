@@ -3,39 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>b.sienkowsk.i | Portfolio</title>
+    <title>b.sienkowsk.i | Professional Photography</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>b.sienkowsk.i</h1>
+
+    <nav class="navbar">
+        <div class="logo">B.SIENKOWSK.I</div>
+        <ul>
+            <li><a href="#home">Start</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#about">O mnie</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Visual Stories</h1>
+            <p>Canon EOS R100 | Wildlife & Nature</p>
+        </div>
     </header>
 
-    <div class="gallery">
-        <img src="4424.png" alt="Zdjecie">
-        <img src="4406.png" alt="Zdjecie">
-        <img src="4367.png" alt="Zdjecie">
-        <img src="4766.png" alt="Zdjecie">
-        <img src="4668.png" alt="Zdjecie">
-        <img src="4667.png" alt="Zdjecie">
-        <img src="4666.png" alt="Zdjecie">
-        <img src="4665.png" alt="Zdjecie">
-        <img src="4664.png" alt="Zdjecie">
-        <img src="4660.png" alt="Zdjecie">
-        <img src="4426.png" alt="Zdjecie">
-        <img src="4428.png" alt="Zdjecie">
-        <img src="4427.png" alt="Zdjecie">
-        <img src="1951.png" alt="Zdjecie">
-        <img src="1736.png" alt="Zdjecie">
-        <img src="1741.png" alt="Zdjecie">
-        <img src="578.png" alt="Zdjecie">
-        <img src="576.png" alt="Zdjecie">
-        <img src="361.png" alt="Zdjecie">
-        <img src="202.png" alt="Zdjecie">
-        <img src="363.png" alt="Zdjecie">
-        <img src="203.png" alt="Zdjecie">
-        <img src="387.png" alt="Zdjecie">
-        <img src="399.png" alt="Zdjecie">
-    </div>
+    <main id="gallery" class="container">
+        <h2 class="section-title">Wybrane kadry</h2>
+        <div class="masonry-grid">
+            <img src="4424.png" alt="Photography">
+            <img src="4406.png" alt="Photography">
+            <img src="4367.png" alt="Photography">
+            <img src="4766.png" alt="Photography">
+            <img src="4668.png" alt="Photography">
+            <img src="4667.png" alt="Photography">
+            <img src="1951.png" alt="Photography">
+            <img src="1736.png" alt="Photography">
+        </div>
+    </main>
+
+    <section id="about" class="about">
+        <h2>O mnie</h2>
+        <p>Fotograf z pasją do detali. Każde zdjęcie to opowieść o świetle, naturze i emocjach.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 b.sienkowsk.i. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
 </body>
 </html>
