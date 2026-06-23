@@ -27,5 +27,3 @@ footer a { color: #888; text-decoration: none; }
     header { flex-direction: column; gap: 15px; }
     .hero h1 { font-size: 2rem; }
 }
-
-
