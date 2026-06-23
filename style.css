@@ -1,13 +1,24 @@
-body { background-color: #000; margin: 0; padding: 20px; }
-h1 { color: #fff; text-align: center; font-family: sans-serif; }
-.gallery { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 15px; 
-}
-.gallery img { 
-    width: 100%; 
-    height: 300px; 
-    object-fit: cover; 
-    border: 1px solid #333; 
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background-color: #050505; color: #fff; font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+
+/* Nawigacja */
+.navbar { display: flex; justify-content: space-between; padding: 30px 5%; position: sticky; top: 0; background: rgba(0,0,0,0.8); z-index: 1000; }
+.navbar ul { display: flex; list-style: none; }
+.navbar ul li a { color: #fff; text-decoration: none; margin-left: 30px; font-weight: 300; transition: 0.3s; }
+.navbar ul li a:hover { color: #aaa; }
+
+/* Hero */
+.hero { height: 90vh; display: flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('4424.png'); background-size: cover; background-position: center; }
+.hero h1 { font-size: 5rem; text-transform: uppercase; letter-spacing: 10px; }
+
+/* Galeria */
+.container { padding: 80px 5%; }
+.section-title { margin-bottom: 40px; font-weight: 300; border-bottom: 1px solid #333; padding-bottom: 10px; }
+.masonry-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.masonry-grid img { width: 100%; height: 400px; object-fit: cover; transition: 0.5s; border-radius: 4px; }
+.masonry-grid img:hover { transform: translateY(-10px); cursor: pointer; }
+
+/* Sekcja About */
+.about { padding: 100px 20%; text-align: center; background: #0a0a0a; }
+
+footer { padding: 40px; text-align: center; font-size: 0.8rem; color: #555; }
