@@ -2,51 +2,20 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>b.sienkowsk.i | Professional Photography</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <style>
+        body { background: #000; color: #fff; text-align: center; font-family: sans-serif; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+        img { width: 100%; height: 200px; object-fit: cover; }
+    </style>
 </head>
 <body>
-
-    <nav class="navbar">
-        <div class="logo">B.SIENKOWSK.I</div>
-        <ul>
-            <li><a href="#home">Start</a></li>
-            <li><a href="#gallery">Galeria</a></li>
-            <li><a href="#about">O mnie</a></li>
-        </ul>
-    </nav>
-
-    <header id="home" class="hero">
-        <div class="hero-content">
-            <h1>Visual Stories</h1>
-            <p>Canon EOS R100 | Wildlife & Nature</p>
-        </div>
-    </header>
-
-    <main id="gallery" class="container">
-        <h2 class="section-title">Wybrane kadry</h2>
-        <div class="masonry-grid">
-            <img src="4424.png" alt="Photography">
-            <img src="4406.png" alt="Photography">
-            <img src="4367.png" alt="Photography">
-            <img src="4766.png" alt="Photography">
-            <img src="4668.png" alt="Photography">
-            <img src="4667.png" alt="Photography">
-            <img src="1951.png" alt="Photography">
-            <img src="1736.png" alt="Photography">
-        </div>
-    </main>
-
-    <section id="about" class="about">
-        <h2>O mnie</h2>
-        <p>Fotograf z pasją do detali. Każde zdjęcie to opowieść o świetle, naturze i emocjach.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 b.sienkowsk.i. Wszystkie prawa zastrzeżone.</p>
-    </footer>
-
+    <h1>Moja Galeria</h1>
+    <div class="gallery">
+        <img src="4424.png" alt="Zdjecie">
+        <img src="4406.png" alt="Zdjecie">
+        <img src="4367.png" alt="Zdjecie">
+        <img src="4766.png" alt="Zdjecie">
+    </div>
 </body>
 </html>
